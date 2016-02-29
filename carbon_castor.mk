@@ -17,7 +17,7 @@ TARGET_SCREEN_HEIGHT := 1080
 TARGET_SCREEN_WIDTH := 1920
 
 # Inherit AOSP Device parts
-$(call inherit-product, device/sony/castor_windy/aosp_sgp521.mk)
+$(call inherit-product, device/sony/castor/aosp_sgp521.mk)
 
 # Inherit Carbon Shinano common device parts
 $(call inherit-product, device/sony/shinano-common/platform_carbon.mk)
