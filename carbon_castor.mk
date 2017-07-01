@@ -1,9 +1,6 @@
 # Inherit Carbon product configuration
 $(call inherit-product, vendor/carbon/config/common_tablet.mk)
 
-# Inherit Carbon product configuration
-(call inherit-product, vendor/carbon/config/common.mk)
-
 # Inherit Carbon GSM telephony parts
 $(call inherit-product, vendor/carbon/config/gsm.mk)
 
