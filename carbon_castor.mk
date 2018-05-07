@@ -13,3 +13,6 @@ BUILD_FINGERPRINT := Sony/SGP521/SGP521:6.0.1/23.5.A.1.291/2335002082:user/relea
 
 PRODUCT_NAME := carbon_castor
 PRODUCT_DEVICE := castor
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.carbon.maintainer="Rcstar6696"
